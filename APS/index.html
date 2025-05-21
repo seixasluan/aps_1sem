@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Construção Civil no Vale do Paraíba</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CHART.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Construção Civil no Vale do Paraíba</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#cenario-nacional">Cenário Nacional</a></li>
+          <li><a href="#vale">Vale do Paraíba</a></li>
+          <li><a href="#obras">Obras em Destaque</a></li>
+          <li><a href="#conclusao">Conclusão</a></li>
+          <li><a href="#referencias">Referências</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <h2>Início</h2>
+        <p class="paragraph">
+          <!-- A construção civil é uma das indústrias mais relevantes do Brasil,
+          contribuindo com geração de empregos, urbanização e crescimento
+          econômico, especialmente no Vale do Paraíba. -->
+          A indústria da construção civil desempenha um papel fundamental no
+          desenvolvimento socioeconômico do Brasil, sendo responsável por
+          impulsionar a geração de empregos, dinamizar a economia e promover
+          melhorias na infraestrutura urbana. No Vale do Paraíba, região
+          estratégica do estado de São Paulo, esse setor tem sido um dos
+          principais motores do crescimento regional, especialmente por meio de
+          investimentos em obras públicas e programas habitacionais.
+        </p>
+      </section>
+
+      <section id="cenario-nacional">
+        <h2>Cenário Nacional</h2>
+        <p class="paragraph">
+          <!-- O setor representa mais de 6% do PIB e emprega cerca de 7 milhões de
+          pessoas. Além de sua importância econômica, possui efeito
+          multiplicador em diversas cadeias produtivas. -->
+          Em 2024, o setor da construção civil no Brasil registrou um
+          crescimento de 4,3%, alcançando um Produto Interno Bruto (PIB) de R$
+          359,5 bilhões, conforme dados do Instituto Brasileiro de Geografia e
+          Estatística (IBGE). Esse desempenho superou as expectativas iniciais e
+          foi impulsionado por fatores como o aumento dos investimentos em
+          infraestrutura e a retomada de programas habitacionais, como o "Minha
+          Casa, Minha Vida" .
+        </p>
+      </section>
+
+      <section id="vale">
+        <h2>Vale do Paraíba</h2>
+        <p class="paragraph">
+          <!-- Cidades como São José dos Campos, Taubaté, Jacareí e Pindamonhangaba
+          se destacam por receber investimentos públicos e privados em
+          habitação, infraestrutura e logística. -->
+          No Vale do Paraíba, a construção civil também apresentou resultados
+          positivos em 2024. A região se destacou com um crescimento de 4,1% no
+          setor, impulsionado por iniciativas habitacionais e obras de
+          infraestrutura urbana. Programas como o "Casa Paulista" e o "Casa
+          Joseense" contribuíram para fortalecer o setor habitacional,
+          promovendo o desenvolvimento econômico local.
+        </p>
+        <canvas id="graficoEmpregos"></canvas>
+      </section>
+
+      <section id="obras">
+        <h2>Obras em Destaque</h2>
+        <ul>
+          <li>
+            <strong>Anel Viário de São José dos Campos:</strong> A cidade
+            investiu R$ 1,1 bilhão em obras e melhorias viárias, incluindo a
+            retomada do pacote de obras na Avenida Florestan Fernandes, o Anel
+            Viário. As intervenções visam melhorar a fluidez no trânsito e
+            incluem alargamento de vias, recapeamento asfáltico e implantação de
+            novo acesso à Avenida José Longo.
+          </li>
+          <li>
+            <strong>Minha Casa, Minha Vida em Jacareí:</strong> O município de
+            Jacareí foi contemplado com 228 unidades habitacionais do programa
+            "Minha Casa, Minha Vida", atendendo famílias de baixa renda e
+            contribuindo para a redução do déficit habitacional na região.
+          </li>
+          <li>
+            <strong>Aeroporto de Guaratinguetá:</strong> O Aeroporto de
+            Guaratinguetá passou por obras de modernização, com o objetivo de
+            ampliar sua capacidade operacional e atender à demanda crescente por
+            voos regionais. As melhorias incluem a ampliação da pista e a
+            modernização das instalações, visando impulsionar o turismo e o
+            desenvolvimento econômico local.
+          </li>
+        </ul>
+        <div class="carousel">
+          <img
+            src="img/obra1.jpg"
+            alt="Anel Viário São José dos Campos"
+            class="active"
+          />
+          <img src="img/obra2.jpg" alt="MInha Casa Minha Vida Jacareí" />
+          <img src="img/obra3.jpg" alt="Aeroporto de Guaratinguetá" />
+        </div>
+        <center><p id="photo-ref"></p></center>
+      </section>
+
+      <section id="conclusao">
+        <h2>Conclusão</h2>
+        <p class="paragraph">
+          <!-- O setor da construção civil impulsiona o crescimento econômico
+          regional e melhora a qualidade de vida por meio de obras estruturantes
+          e geração de empregos. -->
+          A construção civil tem desempenhado um papel estratégico no
+          crescimento econômico do Vale do Paraíba, promovendo a geração de
+          empregos, a melhoria da infraestrutura urbana e o acesso à moradia
+          digna. As obras em destaque na região evidenciam o impacto positivo
+          desse setor no desenvolvimento local, contribuindo para a melhoria da
+          qualidade de vida da população e o fortalecimento da economia
+          regional.
+        </p>
+      </section>
+
+      <section id="referencias">
+        <h2>Referências</h2>
+        <ul>
+          <li>IBGE, CAGED, Sinduscon-SP</li>
+          <li>Ministério do Trabalho</li>
+          <li>FGV, PDUI-SP, Caixa Econômica Federal</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - APS UNIP - Ciência da Computação</p>
+      <p>Diego Pontes, Gabriel Pacheco, Luan Seixas</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
